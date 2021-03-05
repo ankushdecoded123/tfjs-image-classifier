@@ -1,0 +1,28 @@
+{
+  "name": "tf-image-classifier",
+  "version": "1.0.0",
+  "description": "Tensorflow.js Image Classifier for MA project",
+  "license": "ISC",
+  "author": "Ankush Mohapatra <ankush.mohapatra9@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/ShowBaba/image-classifier-api-v1.git/issues"
+  },
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "engines": {
+    "node": ">=12.0.0",
+    "npm": ">=5.5.0"
+  },
+  "dependencies": {
+    "@tensorflow/tfjs": "^3.2.0",
+    "@tensorflow/tfjs-automl": "^1.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "get-image-data": "^5.0.0",
+    "jimp": "^0.16.1",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2",
+    "nodemon": "^2.0.6"
+  }
+}
