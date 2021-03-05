@@ -2,7 +2,6 @@ const express = require('express');
 const logger = require('morgan');
 const cors = require('cors');
 
-
 const app = express();
 const corsOptions = {
   origin: '*',
@@ -14,7 +13,7 @@ app.use(cors(corsOptions));
 app.use(express.urlencoded({ extended: false }));
 
 app.get('/', (req, res) => {
-  res.send('Image Classifier API')
+  res.send('MA Image classifier API, powered by Tensorflow.js')
 });
 
 const predictRouter = require('./routes/predict.route')

@@ -9,7 +9,7 @@ exports.makePredictions = async (req, res, next) => {
   try {
     const loadModel = async (img) => {
       const output = {};
-      // laod model
+      // load model
       const model = await automl.loadImageClassification(MODEL_URL);
       // classify
       output.predictions = await model.classify(img);

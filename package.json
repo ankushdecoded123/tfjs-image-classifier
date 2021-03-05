@@ -4,9 +4,6 @@
   "description": "Tensorflow.js Image Classifier for MA project",
   "license": "ISC",
   "author": "Ankush Mohapatra <ankush.mohapatra9@gmail.com>",
-  "bugs": {
-    "url": "https://github.com/ShowBaba/image-classifier-api-v1.git/issues"
-  },
   "scripts": {
     "start": "nodemon app.js"
   },
