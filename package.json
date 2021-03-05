@@ -5,7 +5,9 @@
   "license": "ISC",
   "author": "Ankush Mohapatra <ankush.mohapatra9@gmail.com>",
   "scripts": {
-    "start": "nodemon app.js"
+    "start": "node app.js",
+    "clean": "rm -r dist && mkdir dist",
+    "build": "npm run clean && webpack"
   },
   "engines": {
     "node": ">=12.0.0",
