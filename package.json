@@ -5,9 +5,7 @@
   "license": "ISC",
   "author": "Ankush Mohapatra <ankush.mohapatra9@gmail.com>",
   "scripts": {
-    "start": "node app.js",
-    "clean": "rm -r dist && mkdir dist",
-    "build": "npm run clean && webpack"
+    "start": "pm2-runtime start ecosystem.config.js --env production"
   },
   "engines": {
     "node": ">=12.0.0",
@@ -25,3 +23,5 @@
     "nodemon": "^2.0.6"
   }
 }
+
+
